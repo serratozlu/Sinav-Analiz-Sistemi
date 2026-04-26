@@ -65,3 +65,26 @@ else if (secim == 3)
         }
     }
 }
+//EN BAŞARILI ÖĞRENCİ
+
+else if (secim == 4)
+{
+
+    int maxNot = notlar[0];
+    string enİyi = ogrenciler[0];
+    for (int i = 0; i < notlar.Length; i++)
+    {
+        if (notlar[i] > maxNot)
+        {
+            maxNot = notlar[i];
+            enİyi = ogrenciler[i];
+        }
+    }
+
+    Console.WriteLine($"En başarılı öğrenci: {enİyi}, en yüksek not: {maxNot}");
+
+}
+else
+{
+    Console.WriteLine("Hatalı seçim yaptınız");
+}
