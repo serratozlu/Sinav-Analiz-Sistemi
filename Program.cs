@@ -23,3 +23,12 @@ DateTime[] sinavTarihi =
     new DateTime(2026,4,30),
     new DateTime(2026,4,30)
 };
+
+//DÖNGÜ
+if (secim == 1)
+{
+    for (int i = 0; i < ogrenciler.Length; i++)
+    {
+        Console.WriteLine(ogrenciler[i] + " - Not: " + notlar[i]);
+    }
+}
