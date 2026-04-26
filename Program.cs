@@ -32,3 +32,19 @@ if (secim == 1)
         Console.WriteLine(ogrenciler[i] + " - Not: " + notlar[i]);
     }
 }
+
+//ORTALAMA HESAPLAMA
+else if (secim == 2)
+{
+    int toplam = 0;
+
+    for (int i = 0; i < notlar.Length; i++)
+    {
+        toplam += notlar[i];
+
+    }
+
+    double ortalama = toplam / notlar.Length;
+
+    Console.WriteLine($"Ortalama: {ortalama}");
+}
