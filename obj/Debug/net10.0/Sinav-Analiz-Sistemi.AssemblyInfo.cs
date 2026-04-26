@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sinav-Analiz-Sistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b70b1b7ae6348da05d9e66c02161c43b1ff9fd2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sinav-Analiz-Sistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sinav-Analiz-Sistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

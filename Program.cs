@@ -8,3 +8,18 @@ Console.WriteLine("4 - En Başarılı Öğrenci");
 
 Console.Write("Lütfen seçim yapınız: ");
 int secim = Convert.ToInt32(Console.ReadLine());
+
+
+//VERİLERİ TANIMLAMA
+
+string[] ogrenciler = { "Ahmet", "Ayşe", "Mehmet", "Zeynep" };
+
+int[] notlar = { 50, 70, 90, 87 };
+
+DateTime[] sinavTarihi =
+{
+    new DateTime(2026,4,30),
+    new DateTime(2026,4,30),
+    new DateTime(2026,4,30),
+    new DateTime(2026,4,30)
+};
