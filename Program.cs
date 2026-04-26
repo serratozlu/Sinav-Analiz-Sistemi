@@ -48,3 +48,20 @@ else if (secim == 2)
 
     Console.WriteLine($"Ortalama: {ortalama}");
 }
+
+// GEÇTİ-KALDI
+else if (secim == 3)
+{
+
+    for (int i = 0; i < ogrenciler.Length; i++)
+    {
+        if (notlar[i] > 50)
+        {
+            Console.WriteLine($"Tebrikler! {ogrenciler[i]} Geçtiniz!");
+        }
+        else
+        {
+            Console.WriteLine($"Üzgünüz {ogrenciler[i]} geçemediniz.");
+        }
+    }
+}
