@@ -17,6 +17,6 @@ Program şunları yapacak:
 4. En yüksek & en düşük notu bulacak
 
 🛠️ Kullanılan Teknolojiler
-Dil: C#
-IDE: Visual Studio Code
-Framework: .NET 10
+-Dil: C#
+-IDE: Visual Studio Code
+-Framework: .NET 10
